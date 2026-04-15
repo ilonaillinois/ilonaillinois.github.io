@@ -1,15 +1,7 @@
 ---
 layout: page
-title: HW5: UFO Visualizations
+title: HW5
 permalink: /hw5/
----
-
-## The Data
-<a href="PUT_YOUR_DATA_LINK_HERE" target="_blank">The Data</a>
-
-## The Analysis
-<a href="PUT_NOTEBOOK_LINK_HERE" target="_blank">The Analysis</a>
-
 ---
 
 ## Visualization 1
@@ -21,11 +13,8 @@ permalink: /hw5/
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
 <script>
-vegaEmbed('#vis1', '/assets/chart1.json');
+vegaEmbed('#vis1', '/assets/json/chart1.json');
 </script>
-
-### Write-up
-(Your paragraph here)
 
 ---
 
@@ -34,13 +23,5 @@ vegaEmbed('#vis1', '/assets/chart1.json');
 <div id="vis2"></div>
 
 <script>
-vegaEmbed('#vis2', '/assets/chart2.json');
+vegaEmbed('#vis2', '/assets/json/chart2.json');
 </script>
-
-### Write-up
-(Your paragraph here)
-
----
-
-## Interactivity
-Explain your dropdown + brush interaction here.
