@@ -11,8 +11,8 @@ its total number of sightings. Clicking a country bubble filters the bar chart.
 
 <iframe 
     src="/assets/chart1.html" 
-    width="100%" 
-    height="1100" 
+    width="120%" 
+    height="700" 
     frameborder="0">
 </iframe>
 
