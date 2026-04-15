@@ -3,21 +3,18 @@ layout: page
 title: HW5 - UFO Sightings
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
 ## Visualization 1 — UFO Sightings by Shape and Country
 
 The first visualization shows the top 10 reported UFO shapes ranked by sighting count 
-in a bar chart, paired with a world bubble map. Clicking a country bubble filters 
-the bar chart to recompute shape counts only for that country's sightings.
+in a bar chart, paired with a world bubble map where each country's circle is sized by 
+its total number of sightings. Clicking a country bubble filters the bar chart.
 
-<div id="vis1"></div>
-
-<script>
-  vegaEmbed('#vis1', '/assets/json/chart1.json').catch(console.error);
-</script>
+<iframe 
+    src="/assets/chart1.html" 
+    width="100%" 
+    height="550" 
+    frameborder="0">
+</iframe>
 
 ---
 
@@ -27,24 +24,22 @@ The second visualization pairs a scatter plot (top) with a bar chart (bottom).
 The scatter plots every individual sighting by year and log10 sighting duration. 
 A selection interval brush on the scatter drives the hour-of-day bar chart below.
 
-<div id="vis2"></div>
-
-<script>
-  vegaEmbed('#vis2', '/assets/json/chart2.json').catch(console.error);
-</script>
+<iframe 
+    src="/assets/chart2.html" 
+    width="100%" 
+    height="650" 
+    frameborder="0">
+</iframe>
 
 ---
 
-### Project Links
+### Project Resources
 
-<div class="left">
-<a class="m-1 btn btn-outline-primary btn-2" href="https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv">
-  The Data
-</a>
-</div>
-
-<div class="right">
-<a class="m-1 btn btn-outline-primary btn-2" href="https://github.com/ilonaillinois/ilonaillinois.github.io/blob/main/HW5.ipynb">
-  The Analysis
-</a>
+<div style="display: flex; justify-content: space-between;">
+    <a class="m-1 btn btn-outline-primary btn-2" href="https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv">
+      View Raw Data
+    </a>
+    <a class="m-1 btn btn-outline-primary btn-2" href="https://github.com/ilonaillinois/ilonaillinois.github.io/blob/main/HW5.ipynb">
+      View Analysis (Notebook)
+    </a>
 </div>
