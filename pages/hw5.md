@@ -27,7 +27,7 @@ A selection interval brush on the scatter drives the hour-of-day bar chart below
 <iframe 
     src="/assets/chart2.html" 
     width="100%" 
-    height="1300" 
+    height="800" 
     frameborder="0">
 </iframe>
 
