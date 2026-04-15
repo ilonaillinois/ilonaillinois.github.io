@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: HW5 - UFO Sightings
 ---
 
@@ -16,7 +16,9 @@ bubble filters the bar chart to recompute shape counts only for that country's s
 via `transform_filter`. No data pre-aggregation was done in pandas for the bar chart —
 Vega-Lite recomputes counts from raw rows so the filter works correctly.
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/chart1.json" style="width: 100%"></vegachart>
+<script>
+vegaEmbed('#vis1', '/assets/json/chart1.json');
+</script>
 
 ## Visualization 2 — Duration & Year vs. Hour of Day
 
@@ -30,7 +32,14 @@ for only the brushed points. Points outside the brush fade to gray. This lets yo
 questions like: do long-duration sightings cluster at night? Do older-era sightings have
 a different hourly pattern than recent ones?
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/chart2.json" style="width: 100%"></vegachart>
+<script>
+vegaEmbed('#vis2', '/assets/json/chart2.json');
+</script>
+
+
+<iframe src="/assets/chart1.html" width="100%" height="500"></iframe>
+
+<iframe src="/assets/chart2.html" width="100%" height="600"></iframe>
 
 <div class="left">
 <a class="m-1 btn btn-outline-primary btn-2" href="https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv">
