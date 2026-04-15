@@ -12,7 +12,7 @@ its total number of sightings. Clicking a country bubble filters the bar chart.
 <iframe 
     src="/assets/chart1.html" 
     width="100%" 
-    height="550" 
+    height="1100" 
     frameborder="0">
 </iframe>
 
@@ -27,7 +27,7 @@ A selection interval brush on the scatter drives the hour-of-day bar chart below
 <iframe 
     src="/assets/chart2.html" 
     width="100%" 
-    height="650" 
+    height="1300" 
     frameborder="0">
 </iframe>
 
