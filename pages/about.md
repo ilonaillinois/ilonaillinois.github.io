@@ -19,4 +19,3 @@ possibly a corgi, most definitely not!  Either way there are really neat things 
 {% include about/timeline.html %}
 </div>
 
-<a href="/hw5/">Go to HW5</a>
