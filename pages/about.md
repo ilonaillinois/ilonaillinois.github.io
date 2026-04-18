@@ -7,8 +7,8 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}**,<br>
-
+Hi I am Ilona<br>
+image: https://cdn2.cdnstep.com/2O2ry7IEp5pFMHQyybcs/2-1.png
 
 <!-- <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
