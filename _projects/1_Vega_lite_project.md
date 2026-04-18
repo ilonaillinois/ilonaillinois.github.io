@@ -1,4 +1,4 @@
----
+<!-- ---
 name: Vega Lite Example Project
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/cars.png
@@ -49,4 +49,4 @@ Below is where we can put some links to both the data and the analysis code as b
 <div class="right">
 {% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
 </div>
-
+ -->
