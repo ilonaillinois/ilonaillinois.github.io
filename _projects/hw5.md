@@ -1,6 +1,13 @@
 ---
-layout: page
-title: HW5 - UFO Sightings
+name: UFO Sightings
+tools: [Python, HTML, vega-lite]
+image: https://web-cdnprod.aa.com.tr/uploads/Contents/2026/02/24/thumbs_b_c_0628edc8dfe5f9e70b12020685341a5d.jpg?v=133529
+description: My UFO sightings assignment!
+custom_js:
+  - vega.min
+  - vega-lite.min
+  - vega-embed.min
+  - justcharts
 ---
 
 ## Visualization 1 — UFO Sightings by Shape and Country
